@@ -1,0 +1,133 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+/* Custom style */
+body{
+    font-size: 15px;
+    line-height: 1.5;
+    background-color: #D4CEA7;	
+}
+.container{
+	width: 100%;
+	max-width: 1100px;
+	margin: 0 auto;
+	line-height: 1.5;
+}
+/*custom-style */
+.header{
+    background-color: #F96115;
+    padding: 25px;
+}
+.flex{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+.flex a{
+    color: white;
+    font-size: 25px;
+    text-decoration: none;
+    padding-left: 30px;
+}
+.flex li{
+    list-style-type: none;
+}
+.box-1{
+   background-color: #005979;
+    width: 25%;
+    padding-top: 20px;
+    padding-bottom: 100px;
+}
+.box-2{
+    background-color: #005979;
+    width: 25%;
+    padding-top: 20px;
+}
+ol{
+    list-style-type: number;
+    color: white;
+    padding-left: 40px;
+    font-size: 20px;
+}
+ul{
+    color: white;
+    font-size: 20px;
+    padding-left: 50px;
+    list-style-type: disc;
+}
+.square{
+    list-style-type: square;
+}
+.flex-2{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 40px;
+}
+.check-box{
+    list-style-type:square;
+    
+}
+.check-box li{
+padding-top: 8px;
+}
+dl{
+    padding-bottom: 20px;
+}
+dt{
+    font-size: 30px;
+    color: black;
+    padding-top: 20px;
+    word-spacing: 12px;
+}
+dd{
+    font-size: 22px;
+    color: gray;
+    padding-left: 30px;
+}
+.footer{
+    background-color: #252C22;
+    padding: 30px;
+}
+.nav{
+    margin-left: -80px;
+}
